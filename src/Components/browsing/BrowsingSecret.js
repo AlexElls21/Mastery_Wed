@@ -7,6 +7,7 @@ export default function BrowsingSecret(props){
         <div>
             {console.log('here',props)}
             {props.secret}
+            hello
         </div>
     );
 }
