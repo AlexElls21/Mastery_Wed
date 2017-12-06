@@ -37,9 +37,9 @@ export default class Browsing extends Component{
         })
     }
 
-    // componentDidMount(){
-    //     console.log(this.state.animal)
-    // }
+    componentDidMount(){
+        console.log(this.state.animal)
+    }
 
     deleteAnimal(id) {
         axios.delete(`/api/delete/${id}`).then( res =>{
