@@ -9,7 +9,7 @@ import Edit from './Components/Edit/Edit';
 export default (
     <div>
 
-        <Link to='/details'>Details</Link>
+        {/* <Link to='/details'>Details</Link> */}
         <Switch>
             <Route component={Browsing} exact path='/' />
             <Route component={Edit} exact path='/edit/:one' />
